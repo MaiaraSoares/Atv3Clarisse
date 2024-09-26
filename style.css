@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+
+}
+:root{
+    --cor-theme1: #8E2424;
+    --cor-theme2: #101828;
+    --cor-theme3: #667085;
+    --margin: 80px
+}
+/*aaaaHHHHHHHHHHHHHHHHHHHHSSSSSSSw*/
+body{
+ width: 100vw;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0px var(--margin);
+    padding: 32px 32px;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.logo h3{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A404E;
+}
+header nav {
+    display: flex;
+    gap: 32px;
+    margin-right: 25%;
+}
+header nav a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--cor-theme3);
+}
+.nav__links a{
+    padding: 10px 18px;
+    background: var(--cor-theme1);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    gap: 12px;
+
+}
+#Entrar{
+    background: transparent;
+    color: var(--cor-theme3);
+}
+#Cadastrar{
+    color: white;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.Part_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0px var(--margin);
+    padding: 96px 96px;
+}
+.Part_1 h3, .Part_3 h3, .Part_5 h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-theme1);
+}
+.Part_1 h1{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #101828;
+    ;
+}
+.Part_1 p, .Part_3 p{
+    font-size: 20px ;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+}
+
+.Part_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px var(--margin);
+    padding: 32px 32px;
+    gap: 12px;
+}
+.card{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+.card h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    color: var(--cor-theme1);
+}
+.card h3{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: var(--cor-theme2);
+}
+.card p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--cor-theme3);
+}
+
+.Part_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px var(--margin);
+    padding: 96px 32px;
+    gap: 60px;
+
+}
+.Part_3 h3{
+    background: #8E24240D;
+    width:  125px;
+    height: 28px;
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+.Part_3 .infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.Part_3 h1{
+    font-weight: 600;
+    line-height: 44px;
+    font-size: 36px;
+    color: var(--cor-theme2);
+}
+.Part_3 img{
+    width: 100%;
+}
+
+
+
+
+.Part_4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px var(--margin);
+    padding: 96px 0;
+    gap: 64px;
+}
+.box-info{
+    width: 60%;
+    
+}
+.Part_4 .equipe-info{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.equipe-info h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: var(--cor-theme2);
+}
+.equipe-info .card-infos{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 28px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    
+}
+.card-infos h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+.card-infos .time-valor{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 24px;
+    color: var(--cor-theme3);
+
+}
+
+.Part_5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 130px;
+    background: #C3191908;
+    margin: 0px var(--margin);
+    padding: 50px 96px ;
+}
+.Part_5 h1{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: var(--cor-theme2);
+    text-align: center;
+    margin-bottom: 16px;
+}
+.user-review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+}
+.user-review .img-user{
+    background-image: url("/img/5b6b5702d794a0a1ed5d7328c94465d9.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 56px;
+    height: 56px;
+    border-radius: 200px;
+}
+.user-review #name{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--cor-theme2); 
+}
+.user-review #user-prof{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.Part_6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px var(--margin);
+    padding: 96px 96px;
+    gap: 32px;
+}
+.Part_6 h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--cor-theme2);
+}
+.Part_6 p{ 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: var(--cor-theme3);
+
+}
+.cadastrar__email{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.input__cadastrar__email{
+    display: flex;
+    gap: 16px;
+}
+.input__cadastrar__email input{
+    width: 360px;
+    height: 28px;
+    padding: 12px 16px;
+    gap: 8px;
+    border-radius: 8px ;
+    border: 1px solid #D0D5DD;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--cor-theme3);
+   
+}
+.input__cadastrar__email button{
+    padding: 10px 18px;
+    background: var(--cor-theme1);
+    text-decoration: none;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.cadastrar__email P{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #98A2B3;
+}
